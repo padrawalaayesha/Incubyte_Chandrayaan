@@ -1,10 +1,10 @@
 public class Chandrayan {
-    int position = 0;
+    int pos = 0;
     public void moveBackward(){
-        position--;
+        pos--;
     }
     public void moveForward(){
-        position++;
+        pos++;
     }
     public static void main(String[] args){
         Chandrayan sp = new Chandrayan();
@@ -17,7 +17,7 @@ public class Chandrayan {
                 sp.moveBackward();
             }
             else{
-                System.out.print("Invalid Command");
+                System.out.print("You have enetered an invalid command");
             }
         }
 
